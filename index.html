@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Flash Colorido Selfie</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+    <h1>ColorFlash</h1>
+
+    <div id="videoContainer">
+      <video autoplay playsinline></video>
+    </div>
+    
+    <div id="controls">
+      <input type="color" id="colorPicker" value="#ff0099" title="Escolha a cor do flash" />
+      <button id="snapBtn" title="Tirar Foto"></button>
+    </div>
+    
+    <div id="canvasContainer"></div>
+    
+    <div id="flashOverlay"></div>
+
+</body>
+<script src="script.js"></script>
+</html>
