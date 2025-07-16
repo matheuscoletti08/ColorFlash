@@ -68,11 +68,10 @@
       canvasContainer.innerHTML = '';
       canvasContainer.appendChild(canvas);
 
-      // Cria botão download estilizado
       const link = document.createElement('a');
       link.href = canvas.toDataURL('image/png');
       link.download = 'selfie-flash-colorido.png';
-      link.id = 'downloadBtn';  // id para estilizar
+      link.id = 'downloadBtn'; 
       link.textContent = 'Download da Foto';
       canvasContainer.appendChild(link);
 
